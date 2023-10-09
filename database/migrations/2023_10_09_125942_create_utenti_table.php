@@ -15,9 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('nome');
             $table->string('cognome');
-            $table->date('data nascita');
+            $table->date('data_nascita');
             $table->string('telefono');
-            $table->string('data iscrizione');
+            $table->string('data_iscrizione');
             $table->timestamps();
         });
     }
