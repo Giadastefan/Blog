@@ -6,7 +6,7 @@
 </head>
 <body>
 <form action=".env" method="post" name="datiUtenti">
-    <h1><?php echo $welcome; ?>Blog</h1>
+    <h1>{{$welcome}}Blog</h1>
     <h2>Benvenuto! Iscriviti qui</h2>
 
     Inserisci Nome <input type="text" name="nome"/>
